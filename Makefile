@@ -1,12 +1,12 @@
 # colorswap
 # See LICENSE for copyright and license details.
-GO = go
-RM = rm
-INSTALL = install
-SCDOC = scdoc
-GOFLAGS =
-PREFIX = /usr/local
-BINDIR = bin
+GO ?= go
+RM ?= rm
+INSTALL ?= install
+SCDOC ?= scdoc
+GOFLAGS ?=
+PREFIX ?= /usr/local
+BINDIR ?= bin
 
 all: colorswap
 
